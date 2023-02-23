@@ -1,4 +1,4 @@
-package com.emr.compragamer.cliente;
+package com.emr.cotodigital.cliente;
 
 public class Cliente {
     private final int id_cliente;
@@ -6,7 +6,6 @@ public class Cliente {
     private Domicilio domicilio;
     private Facturas[] facturas;
     private Pedido[] pedidos;
-    private Preguntas[] preguntas;
     private int gamerCoins;
 
     private static int ultimoId;

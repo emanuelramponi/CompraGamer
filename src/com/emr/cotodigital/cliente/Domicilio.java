@@ -1,4 +1,4 @@
-package com.emr.compragamer.cliente;
+package com.emr.cotodigital.cliente;
 
 public class Domicilio {
     private String calle;
