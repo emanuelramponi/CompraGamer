@@ -4,14 +4,16 @@ import java.util.Date;
 
 public class Empleado {
     private int legajo;
+
     private Date fechaIngreso;
+
     private SectorTrabajo sector;
 
     private FichaRosa fichaRosa;
 
-    private static int  ultimolegajo;
+    private int ultimolegajo;
 
-    public Empleado() {this.legajo = ++ultimolegajo;}
+    public Empleado() { this.legajo = ++ultimolegajo;}
 
     public Empleado(Date fechaIngreso)
     {
@@ -35,7 +37,7 @@ public class Empleado {
 
     public void setLegajo(int legajo) { this.legajo = legajo;}
 
-    public void setFechaIngreso (Date date) { this.fechaIngreso = fechaIngreso; }
+    public void setFechaIngreso (Date fechaIngreso) { this.fechaIngreso = fechaIngreso; }
 
     public void setSector(SectorTrabajo sector)  {this.sector = sector;}
 

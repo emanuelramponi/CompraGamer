@@ -1,6 +1,9 @@
 package com.emr.cotodigital.cliente;
 
-public class Cliente {
+import com.emr.cotodigital.Persona;
+
+public class Cliente extends Persona{
+
     private final int id_cliente;
     private String email;
     private Domicilio domicilio;
