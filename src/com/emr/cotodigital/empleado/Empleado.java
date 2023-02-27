@@ -1,8 +1,10 @@
 package com.emr.cotodigital.empleado;
 
+import com.emr.cotodigital.Persona;
+
 import java.util.Date;
 
-public class Empleado {
+public class Empleado extends Persona {
     private int legajo;
 
     private Date fechaIngreso;
@@ -13,7 +15,10 @@ public class Empleado {
 
     private int ultimolegajo;
 
-    public Empleado() { this.legajo = ++ultimolegajo;}
+    public Empleado() {
+
+        this.legajo = ++ultimolegajo;}
+
 
     public Empleado(Date fechaIngreso)
     {

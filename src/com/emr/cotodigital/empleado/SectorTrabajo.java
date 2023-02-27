@@ -16,7 +16,8 @@ public enum SectorTrabajo {
 
     private final String sectorTrabajo;
 
-    SectorTrabajo (String sectorTrabajo) { this.sectorTrabajo = sectorTrabajo; }
+    SectorTrabajo(String sectorTrabajo) { this.sectorTrabajo = sectorTrabajo; }
+    
 
     @Override
     public  String toString() { return this.sectorTrabajo; }

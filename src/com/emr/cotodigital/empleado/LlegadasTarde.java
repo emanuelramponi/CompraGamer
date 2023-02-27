@@ -37,6 +37,5 @@ public class LlegadasTarde {
     public void setCantidadMinutosTarde(int cantidadMinutosTarde) { this.cantidadMinutosTarde = cantidadMinutosTarde;}
 
 
-    public
 
 }
